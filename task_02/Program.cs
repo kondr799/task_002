@@ -15,6 +15,6 @@ if (a > b)
 
 else
 
-    Console.WriteLine($"Большее число: {a}, Меньшее число: {b}");
+    Console.WriteLine($"Меньшее число: {a}, Большее число: {b}");
 
 Console.ReadLine();
