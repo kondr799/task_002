@@ -1,0 +1,15 @@
+C:\ARIADNA\C#\Home_work\task_08\bin\Debug\net6.0\task_08.exe
+C:\ARIADNA\C#\Home_work\task_08\bin\Debug\net6.0\task_08.deps.json
+C:\ARIADNA\C#\Home_work\task_08\bin\Debug\net6.0\task_08.runtimeconfig.json
+C:\ARIADNA\C#\Home_work\task_08\bin\Debug\net6.0\task_08.dll
+C:\ARIADNA\C#\Home_work\task_08\bin\Debug\net6.0\ref\task_08.dll
+C:\ARIADNA\C#\Home_work\task_08\bin\Debug\net6.0\task_08.pdb
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.csproj.AssemblyReference.cache
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.AssemblyInfoInputs.cache
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.AssemblyInfo.cs
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.csproj.CoreCompileInputs.cache
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.dll
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\ref\task_08.dll
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.pdb
+C:\ARIADNA\C#\Home_work\task_08\obj\Debug\net6.0\task_08.genruntimeconfig.cache
