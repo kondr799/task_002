@@ -4,10 +4,11 @@
 // -3 -> нет
 // 7 -> нет
 Console.Clear();
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите 1 число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 if (a % 2 == 0)
 
-    Console.WriteLine("Число является четным" + a + ": ");
-Console.WriteLine($"Число является нечетным {a}");
+    Console.WriteLine($"Число является четным" + a + ": ");
+else
+    Console.WriteLine($"Число является нечетным {a}");
