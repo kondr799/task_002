@@ -6,3 +6,17 @@
 
 // 23432 -> да
 
+Console.Clear();
+Console.WriteLine("Введите пятизначное число: ");
+string n = Console.ReadLine();
+
+if (n[0] == n[4] && n[1] == n[3])
+{
+    Console.Write($"{n} Является полиндромом", n);
+}
+else
+{
+    Console.Write($"{n} Не является полиндромом", n);
+}
+
+
