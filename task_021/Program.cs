@@ -18,3 +18,4 @@ Console.Write("z2 = ");
 double z2 = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine(Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2) + Math.Pow(z1 - z2, 2)));
+Console
