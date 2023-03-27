@@ -5,3 +5,18 @@
 
 Console.Clear();
 
+double a;
+double b;
+
+Console.Write("Введите число А: ");
+a = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите число B: ");
+b = Convert.ToDouble(Console.ReadLine());
+
+a = Math.Pow(a, b);
+Console.WriteLine("Число a равно" + a +"");
+Console.ReadLine();
+
+
+
+
