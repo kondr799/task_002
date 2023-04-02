@@ -5,8 +5,8 @@
 
 Console.Clear();
 
-Console.Write("Введите элементы: ");
-int[] array = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+Console.Write("Введите элементы (через пробелы): ");
+int[] array = Array.ConvertAll(Console.ReadLine().Split(" "), int.Parse);
 int count = 0;
 for (int i = 0; i < array.Length; i++)
 {
