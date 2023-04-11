@@ -6,17 +6,17 @@
 Console.Clear();
 Console.WriteLine("Размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
-int[] num = new int(size);
+int[] num = new int[size];
 FillArrayRandomNumbers(num);
 Console.WriteLine("Массив: ");
 PrintArray(num);
 int sum = 0;
 
-for (int i = 0; i < num.length; i += 2);
+for (int i = 0; i < num.Length; i += 2)
 {
     sum = sum + num[i];
 }
-Console.WriteLine($"всего {num.length} чисел, нечетных чисел = {sum}");
+Console.WriteLine($"всего {num.Length} чисел, нечетных чисел = {sum}");
 
 void FillArrayRandomNumbers(int[] num)
 {
