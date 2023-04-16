@@ -1,0 +1,5 @@
+C:\ARIADNA\C#\Home_work\obj\Debug\net6.0\Home_work.csproj.AssemblyReference.cache
+C:\ARIADNA\C#\Home_work\obj\Debug\net6.0\Home_work.GeneratedMSBuildEditorConfig.editorconfig
+C:\ARIADNA\C#\Home_work\obj\Debug\net6.0\Home_work.AssemblyInfoInputs.cache
+C:\ARIADNA\C#\Home_work\obj\Debug\net6.0\Home_work.AssemblyInfo.cs
+C:\ARIADNA\C#\Home_work\obj\Debug\net6.0\Home_work.csproj.CoreCompileInputs.cache
