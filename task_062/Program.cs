@@ -7,18 +7,20 @@
 
 void SplitMatrix(int[,] m, int step)
 {
+// Обходим периметр с учётом смещения
+// -> Заполняем строку сверху вправо
     for (int i = step + 1; i < m.GetLength(1) - step; i++)
         m[step, i] = m[step, i - 1] + 1;
-
+// заполняем столбец справа вниз
     for (int i = step + 1; i < m.GetLength(0) - step; i++)
         m[i, m.GetLength(1) - step - 1] = m[i - 1, m.GetLength(1) - step - 1] + 1;
-
+// <- Заполняем строку внизу влево
     for (int i = m.GetLength(1) - step - 2; i >= step; i--)
     m[m.GetLength(0) - step - 1,i] = m[m.GetLength(0) - step - 1, i + 1] + 1;    
-
+// Заполняем столбец слева вверх
     for (int i = m.GetLength(0) - step - 2; i > step; i--)
     m[i, step] = m[i + 1, step] + 1;
-
+// Обход периметра закончен, если внутри него есть незаполненные ячейки, рекурсивно вызываем эту же функцию
     if (m[step + 1, step + 1] == 0)
     {
         m[step + 1, step + 1] = m[step + 1, step] + 1;
